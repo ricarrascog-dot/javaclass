@@ -34,5 +34,16 @@ import java.util.Scanner;
                 for (int i = 1; i <= 5; i++) {
                     System.out.println("Procesando estudiante " + i);
                 }
+                int opcion = -1;
+                while (opcion != 0) {
+                    System.out.println("=== SISTEMA DUOC ===");
+                    System.out.println("1. Mostrar estado");
+                    System.out.println("2. Procesar operación");
+                    System.out.println("0. Salir");
+                    System.out.print("Seleccione una opción: ");
+                    opcion = scanner.nextInt();
+
+
+                }
             }
         }
