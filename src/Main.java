@@ -31,5 +31,8 @@ import java.util.Scanner;
                 } else {
                     System.out.println("Estudiante adulto.");
                 }
+                for (int i = 1; i <= 5; i++) {
+                    System.out.println("Procesando estudiante " + i);
+                }
             }
         }
